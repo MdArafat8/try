@@ -1,0 +1,332 @@
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color:darkblue;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:darkblue;
+    font-size: 18px;
+    font-weight: 400px;
+}
+.banner{
+    background-image: url(../images/lawyer_pro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+}
+.banner-content h1{
+color: #ffffff;
+font-size: 60px;
+text-transform: uppercase;
+
+}
+.hg{
+    height: 90vh;
+    align-items: center;
+}
+
+
+/*arrow*/
+.banner .arrow{
+    
+    position: absolute;
+        
+    top: 90%;
+        
+    left: 50%;
+        
+    transform: translate(-80%, -50%);
+        
+    color: #ffffff;
+        
+    font-size: 18px;
+    animation: updown 2s linear infinite;
+    animation-direction: alternate;
+    }
+    
+    @keyframes updown{
+        0%{
+            top: 90%;
+        }
+        100%{
+            top: 96%;
+        }
+    }
+    .whoweare{
+
+    }
+    .whoweare:hover span{
+        width: 100px;
+    }
+    .whoweare span{
+        height: 5px;
+        width: 0;
+        background: red;
+        display: inline-block;
+        transition: .4s all ease-in-out;
+    }
+    .whoweare h1{
+        
+color: #0a0c07;
+    }
+    .whoweare p{
+        
+    }
+    .whoweare img{
+    
+    }
+    .what-we-do{
+        background-color: #f7f8f8;
+    background-image: url(../images/bg.png);
+    background-size: 980px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+    }
+.what-we-do:hover .heading span{
+width: 100px;
+}
+    .heading{
+
+    }
+    .heading span{
+        height: 5px;
+        width: 0px;
+        background: red;
+        display: inline-block;
+        transition: .4s all ease-in-out;
+    }
+
+    .heading h1{
+
+font-size: 40px;
+
+color: #0a0c07;
+
+}
+.asilo{
+position: relative;
+}
+.asilo::before{
+    content: '';
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,28377e+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+transition: .4s all ease-in-out;
+
+}
+.asilo:hover::before{
+    height: 100%;
+
+}
+.tittle{
+
+position: absolute;
+
+top: 60%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+opacity: 0;
+transition: .4s all ease-in-out;
+
+}
+.tittle h1{
+   color: #ffffff; 
+   font-size: 24px;
+   
+}
+.asilo:hover .tittle{
+    opacity: 1;
+    top: 50%;
+
+}
+.icon{
+
+position: absolute;
+
+top: 80%;
+
+left: 40%;
+
+opacity: 0;
+
+transition: .4s all ease-in-out;
+
+color: #ffffff;
+
+transform: translateX(-50%);
+}
+.asilo:hover .icon{
+    opacity: 1;
+    left: 50%;
+}
+.our-atorney{
+    background-image: url(../images/bg-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.our-atorney .heading-1{
+
+}
+.our-atorney .heading-1 h1{
+color: #ffffff;
+}
+.our-atorney .heading-1 h5{
+    color: red;
+}
+.our-atorney .heading-1 p{
+color: #ffffff;
+padding-top: 50px;
+}
+.our-atorney .heading-1:hover span{
+    width: 100px;
+}
+.our-atorney .heading-1 span{
+    height: 5px;
+    width: 0;
+    background: red;
+    display: inline-block;
+    transition: .4s all ease-in-out;
+}
+.our-atorney{
+    
+}
+
+.language:hover .heading span{
+    width: 100px;
+    }
+        .heading{
+    
+        }
+        .heading span{
+            height: 5px;
+            width: 0px;
+            background: red;
+            display: inline-block;
+            transition: .4s all ease-in-out;
+        }
+    
+        .heading h1{
+    
+    font-size: 40px;
+    
+    color: #0a0c07;
+    
+    }
+    .contact-us:hover .heading span{
+        width: 100px;
+        }
+            .heading{
+        
+            }
+            .heading span{
+                height: 5px;
+                width: 0px;
+                background: red;
+                display: inline-block;
+                transition: .4s all ease-in-out;
+            }
+        
+            .contact-us .heading h1{
+        
+        font-size: 40px;
+        
+        color: #ffffff;
+        
+        }
+
+        .contact-us{
+            background-color: #29377e;
+        }
+
+
+        .contact-us label{
+            color: #ffffff;
+        }
+        
+        .contact-us button{
+            color: #ffffff
+        }
+        .btn-primary {
+            color: #fff;
+            background-color: #f2622c;
+            border-color: #0d6efd;
+        }
+       .foot{
+           background-color: #0c1234;
+       }
+        footer{
+    
+            padding: 50px 0;
+        }
+        .footer-content{
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .term{
+        color: #ffffff;
+        width: 30%;
+        
+        float: left;
+        }
+        .term ul{
+        
+        margin: 0;
+        
+        padding: 0;
+        
+        list-style: none;
+       
+        }
+        .term ul li{
+        
+        float: left;
+        
+        margin-right: 15px;
+        
+        font-size: 18px;
+        
+        color: #ffffff;
+        }
+        .social{
+        
+        width: 40%;
+        
+        float: right;
+        }
+        .social ul{
+        color: #ffffff;
+        margin: 0;
+        
+        padding: 0;
+        
+        list-style: none;
+        
+        float: right;
+        }
+        .social ul li{
+            
+        float: left;
+            
+        color: #ffffff;
+            
+        margin-left: 20px;
+        }
+        .social ul a{
+            color: #ffffff;
+            transition: .5s all ease-in-out;
+        }
+        .social ul a:hover{
+            color: #f2622c;
+        }
